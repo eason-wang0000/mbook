@@ -1,0 +1,88 @@
+[ 2015-11-17T00:08:31+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=a&sid=0.16651702276431024
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:10:22+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=b&sid=0.8071257101837546
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:10:27+08:00 ] ::1 /mbook/index.php/Home/User/insert
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b' in 'where clause'
+
+[ 2015-11-17T00:11:27+08:00 ] ::1 /mbook/index.php/Home/User/insert
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b' in 'where clause'
+
+[ 2015-11-17T00:12:28+08:00 ] ::1 /mbook/index.php/Home/User/insert
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.$username ) LIMIT 1' at line 1
+
+[ 2015-11-17T00:13:14+08:00 ] ::1 /mbook/index.php/Home/User/insert
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.$username ) LIMIT 1' at line 1
+
+[ 2015-11-17T00:13:53+08:00 ] ::1 /mbook/index.php/Home/User/insert
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.$username ) LIMIT 1' at line 1
+
+[ 2015-11-17T00:14:58+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=b&sid=0.6084008717443794
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:15:04+08:00 ] ::1 /mbook/index.php/Home/User/insert
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b' in 'where clause'
+
+[ 2015-11-17T00:32:02+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=b&sid=0.6908514446113259
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:33:14+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=b&sid=0.6640384139027447
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:34:33+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=b&sid=0.5665026463102549
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:36:23+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=bc&sid=0.06500879372470081
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:40:38+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=bb&sid=0.14113378571346402
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:40:44+08:00 ] ::1 /mbook/index.php/Home/User/Index/index
+ERR: 非法操作:Index
+
+[ 2015-11-17T00:42:45+08:00 ] ::1 /mbook/index.php/Home/User/Index/index
+ERR: 非法操作:Index
+
+[ 2015-11-17T00:42:56+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=c&sid=0.5567520486656576
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:46:34+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=c&sid=0.24931444134563208
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:46:47+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=cd&sid=0.24578522890806198
+ERR: 非法操作:getuser.php
+
+[ 2015-11-17T00:56:20+08:00 ] ::1 /mbook/index.php/home/user/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004137s ]
+ERR: 非法操作:index
+
+[ 2015-11-17T00:56:35+08:00 ] ::1 /mbook/index.php/home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003811s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0095s ]
+SQL: SELECT `book_id`,`book_name`,`book_newPrice`,`book_img` FROM `tb_book` WHERE ( book_isSepprice=1 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003199s ]
+
+[ 2015-11-17T00:58:02+08:00 ] ::1 /mbook/index.php/home/Index/reg
+ERR: 非法操作:reg
+
+[ 2015-11-17T00:58:29+08:00 ] ::1 /mbook/index.php/home/user/getuser.php?q=abc&sid=0.25596258067525923
+ERR: 非法操作:getuser.php
+

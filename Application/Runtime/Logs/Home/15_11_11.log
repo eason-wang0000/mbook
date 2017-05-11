@@ -1,0 +1,33 @@
+[ 2015-11-11T05:47:20+08:00 ] ::1 /test/index.php/home/index/hello
+ERR: 非法操作:hello
+
+[ 2015-11-11T05:54:55+08:00 ] ::1 /test/index.php/home/index/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css
+ERR: 非法操作:jquery.mobile-1.4.5
+
+[ 2015-11-11T05:54:55+08:00 ] ::1 /test/index.php/home/index/jquery.mobile-1.4.5/jquery-1.11.1.min.js
+ERR: 非法操作:jquery.mobile-1.4.5
+
+[ 2015-11-11T05:54:55+08:00 ] ::1 /test/index.php/home/index/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js
+ERR: 非法操作:jquery.mobile-1.4.5
+
+[ 2015-11-11T05:54:58+08:00 ] ::1 /test/index.php/home/index/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js
+ERR: 非法操作:jquery.mobile-1.4.5
+
+[ 2015-11-11T05:54:58+08:00 ] ::1 /test/index.php/home/index/jquery.mobile-1.4.5/jquery-1.11.1.min.js
+ERR: 非法操作:jquery.mobile-1.4.5
+
+[ 2015-11-11T05:54:58+08:00 ] ::1 /test/index.php/home/index/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css
+ERR: 非法操作:jquery.mobile-1.4.5
+
+[ 2015-11-11T05:55:19+08:00 ] ::1 /test/index.php/home/index/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css
+ERR: 非法操作:jquery.mobile-1.4.5
+
+[ 2015-11-11T05:55:52+08:00 ] ::1 /test/index.php/home/index/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css
+ERR: 非法操作:jquery.mobile-1.4.5
+
+[ 2015-11-11T05:55:52+08:00 ] ::1 /test/index.php/home/index/jquery.mobile-1.4.5/jquery-1.11.1.min.js
+ERR: 非法操作:jquery.mobile-1.4.5
+
+[ 2015-11-11T05:55:52+08:00 ] ::1 /test/index.php/home/index/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js
+ERR: 非法操作:jquery.mobile-1.4.5
+

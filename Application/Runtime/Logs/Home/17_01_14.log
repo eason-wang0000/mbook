@@ -1,0 +1,116 @@
+[ 2017-01-14T14:52:37+08:00 ] ::1 /2016/TPpro/mbook/index.php/Home/user/showLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005152s ]
+
+[ 2017-01-14T14:53:12+08:00 ] ::1 /2016/TPpro/mbook/index.php/Home/user/showLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2017-01-14T14:54:16+08:00 ] ::1 /2016/TPpro/mbook/index.php/Home/user/Info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_user` WHERE ( user_name='yyyy' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: question E:\wamp\www\2016\TPpro\mbook\Application\Runtime\Cache\Home\113364de1bb57bf89cef593063f3ecc5.php 第 72 行.
+NOTIC: [8] Undefined variable: answer E:\wamp\www\2016\TPpro\mbook\Application\Runtime\Cache\Home\113364de1bb57bf89cef593063f3ecc5.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2017-01-14T14:54:41+08:00 ] ::1 /2016/TPpro/mbook/index.php/Home/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0101s ]
+SQL: SELECT `book_id`,`book_name`,`book_newPrice`,`book_img` FROM `tb_book` WHERE ( book_isSepprice=1 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001512s ]
+
+[ 2017-01-14T14:54:42+08:00 ] ::1 /2016/TPpro/mbook/index.php/Home/user/Info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `tb_user` WHERE ( user_name='yyyy' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: question E:\wamp\www\2016\TPpro\mbook\Application\Runtime\Cache\Home\113364de1bb57bf89cef593063f3ecc5.php 第 72 行.
+NOTIC: [8] Undefined variable: answer E:\wamp\www\2016\TPpro\mbook\Application\Runtime\Cache\Home\113364de1bb57bf89cef593063f3ecc5.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001955s ]
+
+[ 2017-01-14T14:55:03+08:00 ] ::1 /2016/TPpro/mbook/index.php/Home/user/Info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `tb_user` WHERE ( user_name='yyyy' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: question E:\wamp\www\2016\TPpro\mbook\Application\Runtime\Cache\Home\113364de1bb57bf89cef593063f3ecc5.php 第 72 行.
+NOTIC: [8] Undefined variable: answer E:\wamp\www\2016\TPpro\mbook\Application\Runtime\Cache\Home\113364de1bb57bf89cef593063f3ecc5.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002209s ]
+
